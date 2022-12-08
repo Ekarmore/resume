@@ -1,25 +1,25 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import avatar from "../public/Avatar.webp";
 
-export default function Home() {
+export default function resume() {
   return (
     <div className='relative'>
-<section className='top-10 left-40 fixed'>
-      <p  pt-5 text-xl font-extrabold font-mono>依克买提</p>
-      <span text-sm op-80>前端开发</span>
-      <div className='pt-4 flex items-center'><span className='text-xs border-b border-b-dashed'>earthb0y@outlook.com</span></div>
+<section className='mx-auto flex flex-col flex-wrap w-78 justify-center items-center md:top-10 md:left-24 md:fixed'>
+    <Image alt='my avatar' width={140} className='scale-1.5 rounded-full' placeholder='blur' src={avatar}/>
+      <p className='font-bold text-2xl'>依克买提</p>
+      <div >前端开发</div>
+      <div className='flex items-center'><div className='text-xs border-b border-b-dashed'>earthb0y@outlook.com</div></div>
     </section>
-     <article  className='mx-auto w-1/3 h-screen mt-12'>
+     <article className='mx-auto w-1/4 mt-24'>
        <section>
-       <p font-sans w-12 text-white text-sm p-1 bg-black>关于我</p>
-       <div pt-5>
-       <p font-sans>你好,我是依克买提,一名前端开发,</p>
+       <p className='text-lg font-bold'>关于我</p>
+       <div>
+       <p >你好,我是依克买提,一名前端开发,</p>
        </div>
-       <div mt-5>
-       <p font-mono w-16 text-white text-sm p-1 bg-black>教育经历</p>
-       <div pt-5>
-       <p font-sans font-bold>2018-2022</p><span>广东工业大学</span><span> 网络工程</span>
+       <div >
+       <p >教育经历</p>
+       <div >
+       <p >2018-2022</p><span>广东工业大学</span><span> 网络工程</span>
        </div>
        </div>
        </section>
