@@ -1,15 +1,16 @@
 // import { Inter } from '@next/font/google';
-
-// If loading a variable font, you don't need to specify the font weight
-// const inter = Inter({ subsets: ['latin'] })
-
+import { useState } from "react";
 
 export default function RootLayout({ children }: {
   children: React.ReactNode;
 }) {
+  const [isShow, setIsShow] = useState(true)
+  const onChange = (e:boolean) => {
+    setIsShow(e)
+  }
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <>
+      <main>{children}</main>
+    </>
   );
 }
