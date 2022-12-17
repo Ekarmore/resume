@@ -18,15 +18,26 @@ export default function resume() {
       </section>
       <article className='mx-auto w-1/4 mt-24'>
         <section>
-          <p className='text-lg font-bold'>关于我</p>
-          <div>
-            <p >你好,我是依克买提,一名前端开发,</p>
+          <div className='mb-5'>
+          <h4 className='w-auto pl-2 mb-2 text-lg font-extrabold bg-black text-white'>关于我</h4>
+            <p >你好,我是依克买提,一名前端开发,我对于编程的喜好是用良好的用户界面以及交互体将有意思的想法实现</p>
           </div>
-          <div >
-            <p >教育经历</p>
+          <div className='mb-5' >
+            <h4 className='w-auto pl-2 mb-2 text-lg font-extrabold bg-black text-white' >教育经历</h4>
             <div >
-              <p >2018-2022</p><span>广东工业大学</span><span> 网络工程</span>
+              <p className='font-extrabold' >2018-2022</p>
+              <span>广东工业大学</span><span className='ml-2'>网络工程</span>
             </div>
+          </div>
+          <div className='mb-5'>
+            <h1 className='w-auto pl-2 mb-2 text-lg font-extrabold bg-black text-white' >项目</h1>
+            <div >
+              <p className='font-extrabold' >Aggr聚合搜索引擎</p>
+              <p className='font-extrabold' >Ekar-Template</p>
+            </div>
+          </div>
+          <div>
+            <a href="resume.pdf">PDF Version</a>
           </div>
         </section>
       </article>
