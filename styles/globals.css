@@ -10,3 +10,9 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.projectTitle{
+ font-weight:bold
+}
+.Stack::before{
+content: '';
+}
