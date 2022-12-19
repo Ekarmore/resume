@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import Head from 'next/head'
 import avatar from "../public/Avatar.webp";
+import MdiGithub from '../components/MdiGithub'
+import IcOutlineArrowOutward from '../components/IcOutlineArrowOutward'
 export default function resume() {
   return (
-    <div className='p-5 flex flex-col md:grid md:grid-cols-10 md:gap-10 h-screen leading-7'>
+    <div className='p-5 flex flex-col md:grid md:grid-cols-10 md:gap-10 h-screen leading-8'>
       <Head>
         <title> Resume | ekar </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -19,7 +21,7 @@ export default function resume() {
           <section className='mb-5 '>
           <h4 className='w-20 pl-2 mb-2 text-base font-extrabold bg-black text-white'>关于我</h4>
             <p className='p-5'>你好，我叫依克买提，一名前端开发，我对于编程的追求是用良好的用户界面以及优秀的交互体验实现有趣的想法。我追求所构建出的软件的体验以及架构和代码质量是上乘的。</p>
-            <p className='pl-5'>作为一名开源社区和知识共享的受益者，我也希望并试图用自己微薄的力量作为回馈，平常我会将我所构建出的程序都开源出来与人共享，能够像我被帮助到那样帮助到他人，会使我感到快乐和有意义。</p>
+            <p className='pl-5'>作为一名开源社区和知识共享的受益者，我也希望并试图用自己微薄的力量作为回馈，平常我会将我所构建出的程序都开源出来与人共享，以能够像我被帮助到那样帮助到他人，这让我感觉到编程和开源的意义。</p>
           </section>
           <section className='mb-5 ' >
             <h4 className='w-24 pl-2 mb-2 text-base font-extrabold bg-black text-white' >教育经历</h4>
@@ -49,24 +51,36 @@ export default function resume() {
             <h1 className='w-14 pl-2 mb-2 text-base font-extrabold bg-black text-white' >项目</h1>
             <div className='flex flex-col md:grid md:grid-cols-2 md:gap-10 p-5'>
               <div className='col-span-1 flex-wrap mb-2'>
-              <h4 className='projectTitle mb-2 font-sans' >Aggr</h4>
+              <div className='flex items-center'>
+              <span className='projectTitle font-sans'>Aggr</span>
+              <a target="_blank" href="https://github.com/Ekarmore/Aggr" rel="noreferrer"><MdiGithub className='ml-2' /></a>
+              <a target="_blank" href="https://aggr.ekar.site" rel="noreferrer"><IcOutlineArrowOutward className='ml-2' /></a>
+              </div>
               <span className='text-sm text-gray-500'>一个界面简洁支持i18n的聚合搜索引擎，可以让用户快速指定引擎并且进行搜索跳转</span>
               <span className='text-sm text-gray-500'>Vue3/Vite3/TailWindCss/UnoCSS</span>
               </div>
               <div className='col-span-1 mb-2'>
-              <h4 className='projectTitle mb-2 font-sans' >Ekar-Template</h4>
+              <div className='flex items-center'>
+              <span className='projectTitle font-sans'>Aggr</span>
+              <a target="_blank" href="https://github.com/Ekarmore/Aggr" rel="noreferrer"><MdiGithub className='ml-2' /></a>
+              <a target="_blank" href="https://aggr.ekar.site" rel="noreferrer"><IcOutlineArrowOutward className='ml-2' /></a>
+              </div>
               <span className='text-sm text-gray-500'>一个聚合搜索引擎，可以让用户快速指定引擎并且进行跳转</span>
               <span className='text-sm text-gray-500'>Vue3/TailWindCss/Unocss</span>
               </div>
               <div className='col-span-1  mb-2'>
-              <h4 className='projectTitle mb-2 font-sans' >Ekar-Template</h4>
-              <span className='text-sm text-gray-500'>一个聚合搜索引擎，可以让用户快速指定引擎并且进行跳转</span>
-              <span className='text-sm text-gray-500'>Vue3/TailWindCss/Unocss</span>
+              <div className='flex items-center'>
+              <span className='projectTitle font-sans'>Ekar-template</span>
+              <a target="_blank" href="https://github.com/Ekarmore/ekar-template" rel="noreferrer"><MdiGithub className='ml-2' /></a>
+              <a target="_blank" href="https://ekartemplate.netlify.app" rel="noreferrer"><IcOutlineArrowOutward className='ml-2' /></a>
+              </div>
+              <span className='text-sm text-gray-500'>一个简洁美观的摄影师个人网站开始模板</span>
+              <span className='text-sm text-gray-500'>Nuxt3/Vite/UnoCSS</span>
               </div>
             </div>
           </section>
-          <div>
-            <a href="resume.pdf">PDF Version</a>
+          <div className='text-center mb-5 md:m-0'>
+            <a className='text-xs border-b border-dotted border-dark-200 text-gray-500' href="resume.pdf">PDF Version</a>
           </div>
       </article>
     </div>
