@@ -13,6 +13,3 @@ body {
 .projectTitle{
  font-weight:bold
 }
-.Stack::before{
-content: '';
-}
