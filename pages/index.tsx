@@ -34,7 +34,7 @@ export default function resume() {
             <h4 className='w-24 pl-2 mb-2 text-base font-extrabold bg-black text-white' >工作经历</h4>
             <div className='p-5'>
               <p className='font-extrabold text-xs' >2019-2021</p>
-              <span className='font-sans font-bold'>Night Watch 工作室</span><span className='ml-2 font-sans font-bold'>前端开发</span>
+              <span className='font-sans font-bold'>Night's Watch 工作室</span><span className='ml-2 font-sans font-bold'>前端开发</span>
             </div>
           </section>
           <section className='mb-5' >
