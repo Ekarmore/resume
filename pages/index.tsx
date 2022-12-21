@@ -30,11 +30,18 @@ export default function resume() {
               <span className='font-sans font-bold'>广东工业大学</span><span className='ml-2 font-sans font-bold'>网络工程</span>
             </div>
           </section>
+          <section className='mb-5 ' >
+            <h4 className='w-24 pl-2 mb-2 text-base font-extrabold bg-black text-white' >工作经历</h4>
+            <div className='p-5'>
+              <p className='font-extrabold text-xs' >2019-2021</p>
+              <span className='font-sans font-bold'>Night's Watch 工作室</span><span className='ml-2 font-sans font-bold'>前端开发</span>
+            </div>
+          </section>
           <section className='mb-5' >
             <h4 className='w-20 pl-2 mb-2 text-base font-sans font-extrabold bg-black text-white' >技术栈</h4>
             <div className='p-5'>
-              <div className='Stack'>
-              <span className='font-sans font-bold mr-3'>前端</span><span className='break-all'>JavaScript,TypeScript,Vue,Nuxt,Vite,React,Next,TailWindCSS,WindiCSS,UnoCSS,GSAP</span>
+              <div>
+              <span className='font-sans font-bold mr-3'>前端</span><span className='break-all'>JavaScript,TypeScript,Vue,Nuxt,Vite,React,Next,TailWindCSS,UnoCSS,GSAP</span>
               </div>
               <div className='Stack'>
               <span className='font-sans font-bold mr-3'>后端</span><span>Node,mongoDB,MySQL</span>
@@ -80,7 +87,7 @@ export default function resume() {
             </div>
           </section>
           <div className='text-center mb-5 md:m-0'>
-            <a className='text-xs border-b border-dotted border-dark-200 text-gray-500' href="resume.pdf">PDF Version</a>
+            <a className='text-xs border-b border-dotted border-dark-200 text-gray-500' href="Resume.pdf">PDF版本</a>
           </div>
       </article>
     </div>
