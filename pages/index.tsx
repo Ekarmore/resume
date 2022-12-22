@@ -87,7 +87,7 @@ export default function resume() {
             </div>
           </section>
           <div className='text-center mb-5 md:m-0'>
-            <a className='text-xs border-b border-dotted border-dark-200 text-gray-500' href="Resume.pdf">PDF版本</a>
+            <a className='text-xs border-b border-dotted border-dark-200 text-gray-500' target='_blank' href="https://s1.vika.cn/space/2022/12/22/90c90849603946579c235fa146961203?attname=Resume.pdf" rel="noreferrer">PDF版本</a>
           </div>
       </article>
     </div>
