@@ -21,7 +21,7 @@ export default function resume() {
           <section className='mb-5 '>
           <h4 className='w-20 pl-2 mb-2 text-base font-extrabold bg-black text-white'>关于我</h4>
             <p className='p-5'>你好，我叫依克买提，一名前端开发，我对于编程的追求是用良好的用户界面以及优秀的交互体验实现有趣的想法。我追求所构建出的软件的体验以及架构和代码质量是上乘的。</p>
-            <p className='pl-5'>作为一名开源社区和知识共享的受益者，我也希望并试图用自己微薄的力量作为回馈，平常我会将我所构建出的程序都开源出来与人共享，以能够像我被帮助到那样帮助到他人，这让我感觉到编程和开源的意义。</p>
+            <p className='pl-5'>作为一名开源社区和知识共享的受益者，我也希望并试图用自己微薄的力量作为回馈，我热衷于将我所构建出的程序都开源出来与人共享，能够像我被帮助到那样帮助到他人让我感觉到编程和开源的意义。</p>
           </section>
           <section className='mb-5 ' >
             <h4 className='w-24 pl-2 mb-2 text-base font-extrabold bg-black text-white' >教育经历</h4>
