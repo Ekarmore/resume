@@ -21,7 +21,7 @@ export default function resume() {
           <section className='mb-5 '>
           <h4 className='w-20 pl-2 mb-2 text-base font-extrabold bg-black text-white'>关于我</h4>
             <p className='p-5'>你好，我叫依克买提，一名前端开发，我对于编程的追求是用良好的用户界面以及优秀的交互体验实现有趣的想法。我追求所构建出的软件的体验以及架构和代码质量是上乘的。</p>
-            <p className='pl-5'>作为一名开源社区和知识共享的受益者，我也希望并试图用自己微薄的力量作为回馈，我热衷于将我所构建出的程序都开源出来与人共享，能够像我被帮助到那样帮助到他人让我感觉到编程和开源的意义。</p>
+            <p className='pl-5'>作为一名开源社区和知识共享的受益者，我也希望并试图用自己微薄的力量作为回馈，我热衷于将我所构建出的程序都开源出来与人共享，能够像我被帮助到那样帮助到他人能让我感受到编程和开源的意义。</p>
           </section>
           <section className='mb-5 ' >
             <h4 className='w-24 pl-2 mb-2 text-base font-extrabold bg-black text-white' >教育经历</h4>
@@ -31,7 +31,7 @@ export default function resume() {
             </div>
           </section>
           <section className='mb-5 ' >
-            <h4 className='w-24 pl-2 mb-2 text-base font-extrabold bg-black text-white' >工作经历</h4>
+            <h4 className='w-24 pl-2 mb-2 text-base font-extrabold bg-black text-white' >校园经历</h4>
             <div className='p-5'>
               <p className='font-extrabold text-xs' >2019-2021</p>
               <span className='font-sans font-bold'>Night Watch 工作室</span><span className='ml-2 font-sans font-bold'>前端开发</span>
@@ -63,7 +63,7 @@ export default function resume() {
               <a target="_blank" href="https://github.com/Ekarmore/Aggr" rel="noreferrer"><MdiGithub className='ml-2' /></a>
               <a target="_blank" href="https://aggr.ekar.site" rel="noreferrer"><IcOutlineArrowOutward className='ml-2' /></a>
               </div>
-              <span className='text-sm text-gray-500'>一个界面简洁支持i18n的聚合搜索引擎，可以让用户快速指定引擎并且进行搜索跳转</span>
+              <span className='text-sm text-gray-500'>一个界面简洁的聚合搜索引擎，可以让用户快速指定引擎并且进行搜索跳转</span>
               <span className='text-sm text-gray-500'>Vue3/Vite3/TailWindCss/UnoCSS</span>
               </div>
               <div className='col-span-1 mb-2'>
@@ -72,8 +72,8 @@ export default function resume() {
               <a target="_blank" href="https://github.com/Ekarmore/Aggr" rel="noreferrer"><MdiGithub className='ml-2' /></a>
               <a target="_blank" href="https://aggr.ekar.site" rel="noreferrer"><IcOutlineArrowOutward className='ml-2' /></a>
               </div>
-              <span className='text-sm text-gray-500'>一个聚合搜索引擎，可以让用户快速指定引擎并且进行跳转</span>
-              <span className='text-sm text-gray-500'>Vue3/TailWindCss/Unocss</span>
+              <span className='text-sm text-gray-500'>使用VitePress搭建的博客</span>
+              <span className='text-sm text-gray-500'>Vue3/Vite/VitePress/TailWindCSS</span>
               </div>
               <div className='col-span-1  mb-2'>
               <div className='flex items-center'>
