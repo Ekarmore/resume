@@ -41,7 +41,7 @@ export default function resume() {
             <h4 className='w-20 pl-2 mb-2 text-base font-sans font-extrabold bg-black text-white' >技术栈</h4>
             <div className='p-5'>
               <div>
-              <span className='font-sans font-bold mr-3'>前端</span><span className='break-all'>JavaScript,TypeScript,Vue,Nuxt,Vite,React,Next,TailWindCSS,UnoCSS,GSAP</span>
+              <span className='font-sans font-bold mr-3'>前端</span><span className='break-all'>JavaScript,TypeScript,Vue,Nuxt,Vite,React,Next,TailWindCSS,UnoCSS,GSAP,FramerMotion</span>
               </div>
               <div className='Stack'>
               <span className='font-sans font-bold mr-3'>后端</span><span>Node,mongoDB,MySQL</span>
