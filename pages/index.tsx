@@ -3,7 +3,16 @@ import Head from 'next/head'
 import avatar from "../public/Avatar.webp";
 import MdiGithub from '../components/MdiGithub'
 import IcOutlineArrowOutward from '../components/IcOutlineArrowOutward'
+import { promises } from 'stream';
 export default function resume() {
+  let promise = new Promise (function(resolve,reject){
+    setTimeout(() => {
+      resolve('hi')
+    }, 2000);
+  })
+ console.log(promise.then(r=>r));
+ 
+
   return (
     <div className='p-5 flex flex-col md:grid md:grid-cols-10 md:gap-10 h-screen leading-8'>
       <Head>
@@ -50,7 +59,7 @@ export default function resume() {
               <span className='font-sans font-bold mr-3'>运维</span><span>阿里云,Netlify</span>
               </div>
               <div className='Stack'>
-              <span className='font-sans font-bold mr-3'>设计</span><span>Figma,framer</span>
+              <span className='font-sans font-bold mr-3'>设计</span><span>Figma,Framer</span>
               </div>
             </div>
           </section>
