@@ -5,13 +5,6 @@ import MdiGithub from '../components/MdiGithub'
 import IcOutlineArrowOutward from '../components/IcOutlineArrowOutward'
 import { promises } from 'stream';
 export default function resume() {
-  let promise = new Promise (function(resolve,reject){
-    setTimeout(() => {
-      resolve('hi')
-    }, 2000);
-  })
- console.log(promise.then(r=>r));
- 
 
   return (
     <div className='p-5 flex flex-col md:grid md:grid-cols-10 md:gap-10 h-screen leading-8'>
@@ -77,9 +70,9 @@ export default function resume() {
               </div>
               <div className='col-span-1 mb-2'>
               <div className='flex items-center'>
-              <span className='projectTitle font-sans'>Aggr</span>
-              <a target="_blank" href="https://github.com/Ekarmore/Aggr" rel="noreferrer"><MdiGithub className='ml-2' /></a>
-              <a target="_blank" href="https://aggr.ekar.site" rel="noreferrer"><IcOutlineArrowOutward className='ml-2' /></a>
+              <span className='projectTitle font-sans'>ekar.site</span>
+              <a target="_blank" href="https://github.com/Ekarmore/ekar.site" rel="noreferrer"><MdiGithub className='ml-2' /></a>
+              <a target="_blank" href="https://ekar.site" rel="noreferrer"><IcOutlineArrowOutward className='ml-2' /></a>
               </div>
               <span className='text-sm text-gray-500'>使用VitePress搭建的博客</span>
               <span className='text-sm text-gray-500'>Vue3/Vite/VitePress/TailWindCSS</span>
